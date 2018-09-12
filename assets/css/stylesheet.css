@@ -1,0 +1,229 @@
+body {
+	background-color: #F4F5FA;
+	font-family: 'Istok Web', sans-serif;
+	margin-bottom: 50px;
+}
+
+header {
+	margin-top: 50px;
+	text-align: center;
+}
+
+header > a > img {
+	width: 130px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+header > h1 {
+	display: inline;
+	font-size: 3em;
+}
+
+.cards-row {
+	margin-top: 30px;
+}
+ 
+.card {
+	margin-top: 20px;
+	margin-left: 5%;
+	width: 90%;
+	border: none;
+
+	box-shadow: 0 1px 15px 1px rgba(62, 57, 107, .2);
+	-webkit-animation: shadow-drop-center-reverse 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: shadow-drop-center-reverse 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+
+	border-radius: .35rem;
+	background-clip: border-box;
+	text-align: center;
+	text-decoration: none !important;
+}
+
+.card-btn {
+	margin-top: 0;
+	margin-left: 0;
+	width: auto;
+}
+
+.card:hover {
+	cursor: pointer;
+	-webkit-animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.card-first-3 { margin-left: 13.33% !important; }
+.card-first-2 { margin-left: 26.33% !important; }
+
+.card > img {
+	width: 100%;
+	height: 120px;
+	border-top-left-radius: .35rem;
+	border-top-right-radius: .35rem;
+}
+
+.card-body {
+	padding: .3rem;
+}
+
+.card-title {
+	font-size: 1.8em;
+	margin-top: 1.8rem !important;
+	margin-bottom: 1.7rem !important;
+	color: #464855;
+}
+
+.card-title-btn {
+	font-size: 1em;
+	margin-top: .6rem !important;
+	margin-bottom: .6rem !important;
+	margin-right: 1.2rem !important;
+	margin-left: 1.2rem !important;
+}
+
+.card-text {
+	color: #fff;
+}
+
+.card-text:hover {
+	color: #fff;
+}
+
+/* Pour les téléphones */
+@media only screen and (max-width: 1000px) {
+	header > h1 {
+		display: inline;
+		font-size: 5em;
+	}
+
+	.col-sm-1 {
+		max-width: 0 !important;
+		width: 0 !important;
+	}
+
+	.card-first-3 { margin-left: 0 !important; }
+	.card-first-2 { margin-left: 9.66% !important; }
+
+	.card-title {
+		font-size: 3.5em;
+		margin-top: 2.2rem !important;
+		margin-bottom: 2.1rem !important;
+	}
+
+	.card {
+		width: 94%;
+	}
+
+	.card-btn {
+		margin-top: 0;
+		margin-left: 0;
+		width: auto;
+	}
+
+	.card-title-btn {
+		font-size: 1em;
+		margin-top: .6rem !important;
+		margin-bottom: .6rem !important;
+		margin-right: 1.2rem !important;
+		margin-left: 1.2rem !important;
+	}
+}
+
+/* COULEURS DE CARTES */
+
+.card-orange-light {
+	background-image: -webkit-gradient(linear, left top, right top, from(#ffaf59), to(#ffaf59));
+	background-image: -webkit-linear-gradient(left, #ff814a 0, #ffaf59 100%);
+	background-image: -moz-linear-gradient(left, #ff814a 0, #ffaf59 100%);
+	background-image: -o-linear-gradient(left, #ff814a 0, #ffaf59 100%);
+	background-image: linear-gradient(to right, #ff814a 0, #ffaf59 100%);
+	color: #fff;
+}
+
+.card-orange-medium {
+	background-image: -webkit-gradient(linear, left top, right top, from(#ff8b4d), to(#ff8b4d));
+	background-image: -webkit-linear-gradient(left, #ff633c 0, #ff8b4d 100%);
+	background-image: -moz-linear-gradient(left, #ff633c 0, #ff8b4d 100%);
+	background-image: -o-linear-gradient(left, #ff633c 0, #ff8b4d 100%);
+	background-image: linear-gradient(to right, #ff633c 0, #ff8b4d 100%);
+	color: #fff;
+}
+
+.card-orange-hard {
+	background-image: -webkit-gradient(linear, left top, right top, from(#ca3c22), to(#ff7e4f));
+	background-image: -webkit-linear-gradient(left, #ca3c22 0, #ff7e4f 100%);
+	background-image: -moz-linear-gradient(left, #ca3c22 0, #ff7e4f 100%);
+	background-image: -o-linear-gradient(left, #ca3c22 0, #ff7e4f 100%);
+	background-image: linear-gradient(to right, #ca3c22 0, #ff7e4f 100%);
+	color: #fff;
+}
+
+.card-blue-light {
+	background-image: -webkit-gradient(linear, left top, right top, from(#1d9aee), to(#62c1f6));
+	background-image: -webkit-linear-gradient(left, #1d9aee 0, #62c1f6 100%);
+	background-image: -moz-linear-gradient(left, #1d9aee 0, #62c1f6 100%);
+	background-image: -o-linear-gradient(left, #1d9aee 0, #62c1f6 100%);
+	background-image: linear-gradient(to right, #1d9aee 0, #62c1f6 100%);
+	color: #fff;
+}
+
+.card-blue-medium {
+	background-image: -webkit-gradient(linear, left top, right top, from(#168DEE), to(#62BCF6));
+	background-image: -webkit-linear-gradient(left, #168DEE 0, #62BCF6 100%);
+	background-image: -moz-linear-gradient(left, #168DEE 0, #62BCF6 100%);
+	background-image: -o-linear-gradient(left, #168DEE 0, #62BCF6 100%);
+	background-image: linear-gradient(to right, #168DEE 0, #62BCF6 100%);
+	color: #fff;
+}
+
+.card-blue-hard {
+	background-image: -webkit-gradient(linear, left top, right top, from(#1871ee), to(#5fbef6));
+	background-image: -webkit-linear-gradient(left, #1871ee 0, #5fbef6 100%);
+	background-image: -moz-linear-gradient(left, #1871ee 0, #5fbef6 100%);
+	background-image: -o-linear-gradient(left, #1871ee 0, #5fbef6 100%);
+	background-image: linear-gradient(to right, #1871ee 0, #5fbef6 100%);
+	color: #fff;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2018-8-26 18:27:0
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation shadow-drop-center
+ * ----------------------------------------
+ */
+@-webkit-keyframes shadow-drop-center {
+  0% {
+    box-shadow: 0 1px 15px 1px rgba(62, 57, 107, .2);
+  }
+  100% {
+    box-shadow: 0 1px 15px 1px rgba(62, 57, 107, .6);
+  }
+}
+@keyframes shadow-drop-center {
+  0% {
+    box-shadow: 0 1px 15px 1px rgba(62, 57, 107, .2);
+  }
+  100% {
+    box-shadow: 0 1px 15px 1px rgba(62, 57, 107, .6);
+  }
+}
+@-webkit-keyframes shadow-drop-center-reverse {
+  0% {
+    box-shadow: 0 1px 15px 1px rgba(62, 57, 107, .6);
+  }
+  100% {
+    box-shadow: 0 1px 15px 1px rgba(62, 57, 107, .2);
+  }
+}
+@keyframes shadow-drop-center-reverse {
+  0% {
+    box-shadow: 0 1px 15px 1px rgba(62, 57, 107, .6);
+  }
+  100% {
+    box-shadow: 0 1px 15px 1px rgba(62, 57, 107, .2);
+  }
+}

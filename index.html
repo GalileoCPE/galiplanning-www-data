@@ -1,53 +1,80 @@
 <!DOCTYPE html>
-<!--
-    Le code est open source sur GitHub, venez contribuer!
-    https://github.com/GalileoCPE/galiplanning-www-data
-    https://github.com/GalileoCPE/galiplanning-scripts
--->
-<html>
-	<head>
-		<meta http-equiv="content-type" content="text/html;charset=utf-8">
-		<link rel=icon href=favicon.png type="image/png">
-		<link rel="stylesheet" type="text/css" href="style.css"/>
-		<title>Menu Planning CPE</title>
-	</head>
+<html lang="fr">
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <head>
+        <title>Plannings CPE</title>
 
-	<body>
+        <!-- 3rd-party -->
+        <link href="assets/css/bootstrap.css" rel="stylesheet">
 
-	<header><h1>Plannings CPE</h1>
-<a href="https://galileo-cpe.net/">
-<img src="Galileo.png" alt="Galileo-CPE" align="middle" id="galilogo">
-</a>
-</header>
-	<h3>ETI</h3>
-	<ul>
-	<li><a href="3ETI/index.html" class="eti3" >3ETI</a></li>
-	<li><a href="4ETI/index.html" class="eti4" >4ETI</a></li>
-	<li><a href="5ETI/index.html" class="eti5" >5ETI</a></li>
-	</ul>
-	<h3>CGP</h3>
-	<ul>
-	<li><a href="3CGP/index.html" class="cgp3" >3CGP</a></li>
-	<li><a href="4CGP/index.html" class="cgp4" >4CGP</a></li>
-	<li><a href="5CGP/index.html" class="cgp5" >5CGP</a></li>
-	</ul>
-	<h3>Autres</h3>
-	<ul>
-	<li><a href="http://planning.galileo-cpe.net/carte/carte.html" class="amphi"> Où est mon amphi ? </a></li>
-	<li><a href="langues/index.html" class="langues" >Planning des langues</a></li>
-	</ul>
-	<h2>Plannings précédents</h2>
-	<h3>ETI</h3>
-	<ul>
-	<li><a href="3ETI/Precedent.html" class="eti3p" >3ETI</a></li>
-	<li><a href="4ETI/Precedent.html" class="eti4p" >4ETI</a></li>
-	<li><a href="5ETI/Precedent.html" class="eti5p" >5ETI</a></li>
-	</ul>
-	<h3>CGP</h3>
-	<ul>
-	<li><a href="3CGP/Precedent.html" class="cgp3p" >3CGP</a></li>
-	<li><a href="4CGP/Precedent.html" class="cgp4p" >4CGP</a></li>
-	<li><a href="5CGP/Precedent.html" class="cgp5p" >5CGP</a></li>
-	</ul>
-	</body>
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Istok+Web" rel="stylesheet">
+
+        <!-- Custom -->
+        <link href="assets/css/stylesheet.css" rel="stylesheet">
+        <link rel=icon href=favicon.png type="image/png">
+    </head>
+
+    <body>
+        <header>
+            <a href="https://www.galileo-cpe.net/"><img src="assets/img/galileo.png" alt="Galileo" /></a>
+            <h1>Plannings</h1>
+            <a href="https://www.cpe.fr/"><img src="assets/img/cpe.png" alt="CPE Lyon" /></a>
+        </header>
+
+        <div class="row cards-row">
+            <div class="col-lg-3 col-md-4 card-first-3">
+                <a href="/3ETI/index.html" class="card card-orange-light">
+                    <span class="card-title card-text">3 ETI</span>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4">
+                <a href="/4ETI/index.html" class="card card-orange-medium">
+                    <span class="card-title card-text">4 ETI</span>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4">
+                <a href="/5ETI/index.html" class="card card-orange-hard">
+                    <span class="card-title card-text">5 ETI</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="row cards-row">
+            <div class="col-lg-3 col-md-4 card-first-3">
+                <a href="/3CGP/index.html" class="card card-blue-light">
+                    <span class="card-title card-text">3 CGP</span>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4">
+                <a href="/4CGP/index.html" class="card card-blue-medium">
+                    <span class="card-title card-text">4 CGP</span>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4">
+                <a href="/5CGP/index.html" class="card card-blue-hard">
+                    <span class="card-title card-text">5 CGP</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="row cards-row">
+            <div class="col-lg-3 col-md-5 card-first-2">
+                <a href="/carte/carte.html" class="card">
+                    <img src="assets/img/amphi.png" alt="Studies"/>
+                    <div class="card-body">
+                        <span class="card-title">Où est mon amphi ?</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-5">
+                <a href="/langues/index.html" class="card">
+                    <img src="assets/img/langs.jpg" alt="Langs"/>
+                    <div class="card-body">
+                        <span class="card-title">Planning langues</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </body>
 </html>
