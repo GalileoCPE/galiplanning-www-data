@@ -26,8 +26,6 @@ header > h1 {
  
 .card {
 	margin-top: 20px;
-	/*margin-left: 5%;*/
-	/*width: 90%;*/
 	border: none;
 
 	box-shadow: 0 1px 15px 1px rgba(62, 57, 107, .2);
@@ -51,9 +49,6 @@ header > h1 {
 	-webkit-animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
-
-/*.card-first-3 { margin-left: 13.33% !important; }
-.card-first-2 { margin-left: 26.33% !important; }*/
 
 .card > img {
 	width: 100%;
@@ -101,9 +96,6 @@ header > h1 {
 		width: 0 !important;
 	}
 
-	/*.card-first-3 { margin-left: 0 !important; }
-	.card-first-2 { margin-left: 9.66% !important; }*/
-
 	.card-title {
 		font-size: 3.5em;
 		margin-top: 2.2rem !important;
@@ -114,10 +106,6 @@ header > h1 {
 		font-size: 2.2em;
 		margin-top: 2.2rem !important;
 		margin-bottom: 2.1rem !important;
-	}
-
-	.card {
-		/*width: 94%;*/
 	}
 
 	.card-btn {
@@ -189,19 +177,6 @@ header > h1 {
 	background-image: -o-linear-gradient(left, #1871ee 0, #5fbef6 100%);
 	background-image: linear-gradient(to right, #1871ee 0, #5fbef6 100%);
 	color: #fff;
-}
-
-.middle
-{
-	width:-moz-fit-content;
-	width: -webkit-fit-content;
-	width: fit-content;
-	margin: auto;
-}
-
-.col-sm-5
-{
-	margin: auto;
 }
 .hdn
 {
