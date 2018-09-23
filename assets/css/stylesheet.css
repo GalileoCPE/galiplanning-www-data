@@ -10,7 +10,7 @@ header {
 }
 
 header > a > img {
-	width: 130px;
+	width: 135px;
 	margin-left: 5%;
 	margin-right: 5%;
 }
@@ -90,10 +90,14 @@ header > h1 {
 }
 
 /* Pour les téléphones */
-@media only screen and (max-width: 574px) {
+@media only screen and (max-width: 570px) {
+
+	header > a > img {
+		width: 2.5em;
+	}
+
 	header > h1 {
-		display: inline;
-		font-size: 4em;
+	font-size: 2.5rem;
 	}
 
 	.col-sm-1 {
@@ -102,9 +106,9 @@ header > h1 {
 	}
 
 	.card-title {
-		font-size: 3.5em;
-		margin-top: 2.2rem !important;
-		margin-bottom: 2.1rem !important;
+		/*font-size: 3.5em;*/
+		margin-top: 1rem !important;
+		margin-bottom: 1rem !important;
 	}
 
 	.card-title-img {
@@ -125,6 +129,13 @@ header > h1 {
 		margin-bottom: .6rem !important;
 		margin-right: 1.2rem !important;
 		margin-left: 1.2rem !important;
+	}
+
+	.col-sm-4
+	{
+		width: 7em;
+		padding: 0;
+		margin: auto;
 	}
 }
 
